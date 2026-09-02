@@ -1,5 +1,12 @@
+:root {
+    --primary-color: darkblue;
+    --image-width: 150px;
+    --image-padding: 2px;
+    --image-shadow: 0 0 30px gray;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -14,23 +21,23 @@ main {
 }
 
 main img {
-    width: 150px;
+    width: var(--image-width);
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: var(--image-padding);
+    box-shadow: var(--image-shadow);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 img {
-    width: 150px;
+    width: var(--image-width);
     height: auto;
     border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: var(--image-padding);
+    box-shadow: var(--image-shadow);
 }
 
 p {
