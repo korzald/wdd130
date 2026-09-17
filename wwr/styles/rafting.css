@@ -263,7 +263,7 @@ footer p {
     font-weight: bold;
 }
 
-.contact-form-section {
+.contact-page .contact-form-section {
     max-width: 650px;
     margin: 0 auto 2rem;
     background-color: #eee;
