@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | White Water Excursions </title>
+    <title>Contact Us | White Water Excursions</title>
     <meta name="description"
-      content="White Water Rafting contact us page just part of a much larger website.">
+      content="Contact White Water Excursions with questions about rafting trips, reservations, and our services.">
     <meta name="author" content="Dale Massey">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <img src="images/z-wwr-oars.png" alt="WWR logo">
+        <img src="images/z-wwr-oars.png" alt="White Water Excursions logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,50 +23,103 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="hero">
-            <img src="images/rafting58-600.jpg" alt="River background">
-            <h1>White Water Excursions</h1>
-            <article>
-                <img src="images/jurica-koletic.jpg" alt="Client Photo">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptas?</p>
-            </article>
-        </div>
-        <section class="history">
-            <h2>History</h2>
-            <p>White Water Excursions began with a passion for rivers, adventure, and helping
-                families enjoy the outdoors.
-            </p>
-            <img src="images/rafting-history.jpg" alt="White water rafting expedition">
-            <p> Today, we provide professionally guided rafting trips while emphasizing safety,
-                teamwork, and respect for the environment.</p>
+
+    <main class="contact-page">
+        <h1>Contact White Water Excursions</h1>
+
+        <section class="contact-information">
+            <div class="company-details">
+                <h2>Company Information</h2>
+                <address>
+                    <p>123 River Road</p>
+                    <p>Salmon, Idaho 83467</p>
+                </address>
+                <p><strong>Phone:</strong> (208) 555-0123</p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:info@whitewaterexcursions.com">
+                        info@whitewaterexcursions.com
+                    </a>
+                </p>
+            </div>
+
+            <iframe src="https://www.google.com/maps?q=Salmon%2C%20Idaho&output=embed"
+              title="Map showing White Water Excursions in Salmon, Idaho" loading="lazy">
+            </iframe>
         </section>
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <figure>
-                <img src="images/rafting1.jpg" alt="Los Dientes del Diablo rapids">
-                <figcaption>Los Dientes del Diablo</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting2.jpg" alt="Big Mallard rapids">
-                <figcaption>Big Mallard</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting3.jpg" alt="Half-day rafting adventure">
-                <figcaption>Half Day Adventure</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting4.jpg" alt="Salmon River rafting">
-                <figcaption>Salmon River</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting5.jpg" alt="Rogue River rafting">
-                <figcaption>Rogue River</figcaption>
-            </figure>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Jordan Lee, general manager">
+                    <figcaption>Jordan Lee — General Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Maria Lopez, reservations manager">
+                    <figcaption>Maria Lopez — Reservations Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Ethan Clark, head river guide">
+                    <figcaption>Ethan Clark — Head River Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+
+            <form class="contact-form">
+                <div class="form-item">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset>
+                    <legend>Purpose of Your Message</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general-inquiry" required>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation-question">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="website-suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <label class="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send My Message</button>
+            </form>
         </section>
     </main>
+
     <footer>
         <p>&copy; | 2026 | White Water Excursions | Dale Massey</p>
+
         <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/facebook.webp" alt="Visit us on Facebook">
@@ -79,7 +132,6 @@
             </a>
         </nav>
     </footer>
-
 </body>
 
 </html>
