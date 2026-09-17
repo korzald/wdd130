@@ -20,7 +20,6 @@ header {
     gap: 20px;
     padding: 16px;
     background-color: var(--primary-color);
-    color: var(--accent2-color);
 }
 
 header > img {
@@ -216,14 +215,6 @@ footer p {
     text-align: center;
 }
 
-.contact-information {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 2rem;
-    background-color: #eee;
-}
-
 .company-details address {
     font-style: normal;
 }
@@ -235,12 +226,6 @@ footer p {
 
 .company-details a {
     color: var(--secondary-color);
-}
-
-.contact-information iframe {
-    width: 100%;
-    height: 250px;
-    border: 0;
 }
 
 .employee-profiles {
@@ -264,14 +249,6 @@ footer p {
 .employee-profiles figcaption {
     padding-top: 0.5rem;
     font-weight: bold;
-}
-
-.contact-page .contact-form-section {
-    max-width: 650px;
-    margin: 0 auto 2rem;
-    background-color: #eee;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    border-radius: 0.5rem;
 }
 
 .contact-form {
@@ -486,4 +463,31 @@ footer p {
 .newsletter-form button:focus {
     outline: 3px solid var(--accent2-color);
     outline-offset: 2px;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.company-details {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-layout iframe {
+    width: 100%;
+    min-height: 450px;
+    height: 100%;
+    border: 0;
+}
+
+.contact-page .contact-form-section {
+    margin: 0;
+    background-color: #eee;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    border-radius: 0.5rem;
 }
