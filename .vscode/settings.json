@@ -36,7 +36,7 @@
   "git.autofetch": true,
   // "git.postCommitCommand": "sync",
   "scm.defaultViewMode": "list",
-  "scm.repositories.visible": 0,
+  "scm.repositories.visible": 10,
   // Explorer settings - show only folders view
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
